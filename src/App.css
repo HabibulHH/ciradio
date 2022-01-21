@@ -34,15 +34,13 @@
 .station-item{
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
-  justify-content: center;
-  align-items: center;
-  line-height: 56px;
+
   margin: 20px;
   color: #A4B0BF;
   font-size: 20PX;
   padding: 10px;
   cursor: pointer;
-  opacity: 0.6;
+
 }
 
 .station-item:hover{ 
