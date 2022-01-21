@@ -70,3 +70,7 @@ opacity: 1
   width: 283px;
   background-color: #676464;
 }
+
+.radio-cover{
+  border-radius: 50%;
+}
