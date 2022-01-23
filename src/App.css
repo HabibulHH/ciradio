@@ -72,3 +72,7 @@ opacity: 1
 .radio-cover{
   border-radius: 50%;
 }
+
+.accordion__button:before{
+  opacity: 0;
+}
