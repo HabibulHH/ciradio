@@ -4,7 +4,6 @@ import Header from "../header";
 import ReactDOM from "react-dom";
 
 test("renders header properly", () => {
-  //render(<Header />);
   const container = document.createElement("div");
   ReactDOM.render(<Header></Header>, container);
 });
