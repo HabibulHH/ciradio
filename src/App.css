@@ -6,6 +6,7 @@
 
 .container {
   display: grid;
+  justify-content: center;
 }
 
 .header{
@@ -14,7 +15,7 @@
   display: grid;
   background-color: #EEAE61;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 1fr;
+  grid-template-rows: 130px 1fr;
   justify-content: center;
   align-items: center;
 }
