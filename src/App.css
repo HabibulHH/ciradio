@@ -1,81 +1,77 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-
 
 .container {
   display: grid;
   justify-content: center;
 }
 
-.header{
+.header {
   text-align: center;
-  border-radius:  50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
   display: grid;
-  background-color: #EEAE61;
+  background-color: #eeae61;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 130px 1fr;
   justify-content: center;
   align-items: center;
 }
-.header-text{
+.header-text {
   line-height: 56px;
   margin: 20px;
-  color: #FFFFFF;
-  font-size: 30PX;
+  color: #ffffff;
+  font-size: 30px;
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
 }
-.station-container{
+.station-container {
   background-color: #282833;
   height: auto;
 }
-.station-item{
+.station-item {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
 
   margin: 20px;
-  color: #A4B0BF;
-  font-size: 15PX;
+  color: #a4b0bf;
+  font-size: 15px;
   padding: 10px;
   cursor: pointer;
-
-
 }
 
-.station-item:hover{ 
-opacity: 1
+.station-item:hover {
+  opacity: 1;
 }
 
-.item-details{
+.item-details {
   margin-top: 36px;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   justify-items: center;
 }
-.station-name{
+.station-name {
   grid-column-start: 2;
-    grid-column-end: 4;
+  grid-column-end: 4;
 }
-.station-number{
+.station-number {
   grid-column-start: 6;
   grid-column-end: -1;
 }
-.photo{
+.photo {
   border-radius: 50%;
   height: 283px;
   width: 283px;
   background-color: #676464;
 }
 
-.radio-cover{
+.radio-cover {
   border-radius: 50%;
 }
 
-.accordion__button:before{
+.accordion__button:before {
   opacity: 0;
- 
 }
