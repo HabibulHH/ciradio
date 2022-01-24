@@ -34,12 +34,11 @@
 .station-item {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
-
-  margin: 20px;
+  margin: 15px;
   color: #a4b0bf;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .station-item:hover {
@@ -58,6 +57,7 @@
   grid-column-end: 4;
 }
 .station-number {
+  justify-self: center;
   grid-column-start: 6;
   grid-column-end: -1;
 }

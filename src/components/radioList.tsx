@@ -10,9 +10,9 @@ function RadioList() {
     new Radio("mango radio", "100.8", "/radio.png"),
     new Radio("radio tufan", "90.8", "/radio.png"),
     new Radio("duronto radio", "30.8", "/radio.png"),
-    new Radio("duronto radio", "30.8", "/radio.png"),
-    new Radio("duronto radio", "30.8", "/radio.png"),
-    new Radio("duronto radio", "30.8", "/radio.png"),
+    new Radio("duronto radio", "70.8", "/radio.png"),
+    new Radio("duronto radio", "30.3", "/radio.png"),
+    new Radio("duronto radio", "40.8", "/radio.png"),
   ];
 
   return (

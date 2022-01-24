@@ -17,8 +17,8 @@ export default function RadioListGenerator({ radioList }: Props) {
     <Accordion allowMultipleExpanded={false}>
       {radioList.map((item) => {
         return (
-          <>
-            <AccordionItem>
+          < div key={item.Frequency}>
+            <AccordionItem > 
               <AccordionItemPanel>
                 <RadioItemDetails />
               </AccordionItemPanel>
@@ -32,7 +32,7 @@ export default function RadioListGenerator({ radioList }: Props) {
               </AccordionItemHeading>
             </AccordionItem>
             <hr />
-          </>
+          </div>
         );
       })}
     </Accordion>
