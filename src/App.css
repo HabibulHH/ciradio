@@ -37,9 +37,10 @@
 
   margin: 20px;
   color: #A4B0BF;
-  font-size: 20PX;
+  font-size: 15PX;
   padding: 10px;
   cursor: pointer;
+
 
 }
 
@@ -75,4 +76,5 @@ opacity: 1
 
 .accordion__button:before{
   opacity: 0;
+ 
 }

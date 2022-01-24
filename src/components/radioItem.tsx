@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
     Accordion,
     AccordionItem,
@@ -7,12 +5,8 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
-
-// Demo styles, see 'Styles' section below for some notes on use.
-
 import RadioItemDetails from './details';
-
-export default function Example() {
+export default function RadioItem() {
     return (
         <Accordion allowMultipleExpanded ={false}>
             <AccordionItem>
@@ -21,7 +15,7 @@ export default function Example() {
               </AccordionItemPanel>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    <div className="station-item">
+                    <div className="station-item ">
                   <div className='station-name'>Radio amar</div>
                   <div className='station-number'>89.50</div>
                 </div>
